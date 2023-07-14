@@ -19,9 +19,9 @@ p.parrafo {
     margin-top: 2%;
 }
 
-.falsoboton{
-    margin-top: 6%;
-    /* esto lo voy a tener que tomar en cuenta para cuando lo transforme en un botón en HTML y le de estilo de acá */
+.botoninicio{
+    margin-top: 3%;
+    /* buscar como darle estilo al botón */
 }
 
 .img1{
