@@ -21,18 +21,28 @@ p.parrafo {
 
 .botoninicio {
     margin-top: 3%;
-    /* buscar como darle estilo al botón */
+    /* con esto le da el aspecto redoneado al botón */
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
 
-
+    /* con esto le das sombra al botón */
     -webkit-box-shadow: 6px 5px 24px #666666;
     -moz-box-shadow: 6px 5px 24px #666666;
     box-shadow: 6px 5px 24px #666666;
 
+    /* con esto le damos el tamaño de letra y de padding del botón */
     padding: 14px;
     font-size: 17px;
+    text-decoration: none;
+}
+
+/* con este hover le damos animación para que el botón se ponga de color negro cuando le pasamos el puntero por encima */
+.botoninicio:hover{
+    background-color: black;
+    color: aliceblue;
+    transition-delay: 9ms;
+    
 }
 
 .img1 {
