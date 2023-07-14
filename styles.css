@@ -35,7 +35,7 @@ p.parrafo {
     padding: 14px;
     font-size: 17px;
     text-decoration: none;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 
 /* con este hover le damos animación para que el botón se ponga de color negro cuando le pasamos el puntero por encima */
