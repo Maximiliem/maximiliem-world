@@ -19,11 +19,22 @@ p.parrafo {
     margin-top: 2%;
 }
 
-.botoninicio{
+.botoninicio {
     margin-top: 3%;
     /* buscar como darle estilo al botón */
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+
+
+    -webkit-box-shadow: 6px 5px 24px #666666;
+    -moz-box-shadow: 6px 5px 24px #666666;
+    box-shadow: 6px 5px 24px #666666;
+
+    padding: 14px;
+    font-size: 17px;
 }
 
-.img1{
+.img1 {
     margin-top: -7%;
 }
