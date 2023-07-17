@@ -20,6 +20,9 @@ p.parrafo {
 }
 
 .botoninicio {
+    background-color: black;
+    color: white;
+
     margin-top: 3%;
     /* con esto le da el aspecto redoneado al botón */
     -webkit-border-radius: 28;
@@ -40,9 +43,10 @@ p.parrafo {
 
 /* con este hover le damos animación para que el botón se ponga de color negro cuando le pasamos el puntero por encima */
 .botoninicio:hover{
-    background-color: black;
-    color: aliceblue;
+    background-color: white;
+    color: black;
     transition-delay: 9ms;
+    font-weight: bold;
     
 }
 
