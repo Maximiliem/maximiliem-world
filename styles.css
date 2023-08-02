@@ -19,7 +19,7 @@ p.parrafo {
     margin-top: 2%;
 }
 
-.botoninicio {
+.botoninicio, .btnPag1 {
     background-color: black;
     color: white;
 
@@ -42,14 +42,28 @@ p.parrafo {
 }
 
 /* con este hover le damos animación para que el botón se ponga de color negro cuando le pasamos el puntero por encima */
-.botoninicio:hover{
+.botoninicio:hover, .btnPag1:hover{
     background-color: white;
     color: black;
     transition-delay: 9ms;
-    font-weight: bold;
+    /* con el comando de la línea de abajo, los botones tienen un problema de redimensionamiento al pasar el mouse por encima, con el hover, entonces si se lo quito, no hace problema */
+    /* font-weight: bold; */
     
 }
 
 .img1 {
     margin-top: -7%;
+}
+
+.tituloDos {
+    text-align: center;
+}
+
+#navbarPagUno a, .navbar{
+    text-decoration: none;
+    text-align: center;
+}
+
+.btnPag1{
+    margin: 25px;
 }
