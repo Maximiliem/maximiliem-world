@@ -70,7 +70,7 @@ p.parrafo {
     /*necesito ver cómo hacer para que los botones no se estiren y sigan manteniendo la forma, siendo responsive cuando achico la pantalla*/
 }
 
-.imagenPlaneta {
+.imagen2 {
     display: flex;
     justify-content: center;
 }
