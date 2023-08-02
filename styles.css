@@ -43,7 +43,7 @@ p.parrafo {
 
 /* con este hover le damos animación para que el botón se ponga de color negro cuando le pasamos el puntero por encima */
 .botoninicio:hover, .btnPag1:hover{
-    background-color: white;
+    background-color: rgb(255, 252, 249);
     color: black;
     transition-delay: 9ms;
     /* con el comando de la línea de abajo, los botones tienen un problema de redimensionamiento al pasar el mouse por encima, con el hover, entonces si se lo quito, no hace problema */
@@ -66,4 +66,11 @@ p.parrafo {
 
 .btnPag1{
     margin: 25px;
+    /* display: flex; */
+    /*necesito ver cómo hacer para que los botones no se estiren y sigan manteniendo la forma, siendo responsive cuando achico la pantalla*/
+}
+
+.imagenPlaneta {
+    display: flex;
+    justify-content: center;
 }
