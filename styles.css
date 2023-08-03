@@ -56,7 +56,7 @@ p.parrafo {
     margin: 25px;
 }
 
-/* con este hover le damos animación para que el botón se ponga de color negro cuando le pasamos el puntero por encima */
+    /* con este hover le damos animación para que el botón se ponga de color negro cuando le pasamos el puntero por encima */
 .botoninicio:hover, .btnPag:hover{
     background-color: rgb(255, 252, 249);
     color: black;
@@ -76,7 +76,7 @@ p.parrafo {
     text-align: center;
 }
 
-/*
+/* CÓDIGO NO UTILIZADO
 .btnPag {
     margin: 25px;
     display: flex; 
@@ -94,4 +94,6 @@ p.parrafo {
     justify-content: center;
 }
 
-
+.maxDraw {
+    margin-bottom: 60px;
+}
