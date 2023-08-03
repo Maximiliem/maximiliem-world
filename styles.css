@@ -5,21 +5,34 @@ section {
     letter-spacing: 7px;
 }
 
+/*---BODY------BODY------BODY------BODY------BODY------BODY------BODY------BODY------BODY------BODY------*/
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(255, 252, 249);
 }
 
+
+/*---h1------------h1---------h1--------h1------h1---------h1--------h1------h1---------h1--------h1------*/
 h1 {
     font-size: 500%;
 }
 
+.tituloDos {
+    text-align: center;
+}
+
+/*---p------------p---------p--------p------p---------p--------p------p---------p--------p------*/
 p.parrafo {
     font-size: 140%;
     margin-top: 2%;
 }
 
-.botoninicio, .btnPag1 {
+/*---BOTONES------------BOTONES---------BOTONES--------BOTONES------BOTONES--------BOTONES------*/
+.botoninicio, .maxDraw, .btnPag {
+    margin-bottom: 3%;
+}
+
+.botoninicio, .btnPag {
     background-color: black;
     color: white;
 
@@ -39,10 +52,12 @@ p.parrafo {
     font-size: 17px;
     text-decoration: none;
     letter-spacing: 4px;
+
+    margin: 25px;
 }
 
 /* con este hover le damos animación para que el botón se ponga de color negro cuando le pasamos el puntero por encima */
-.botoninicio:hover, .btnPag1:hover{
+.botoninicio:hover, .btnPag:hover{
     background-color: rgb(255, 252, 249);
     color: black;
     transition-delay: 9ms;
@@ -51,12 +66,9 @@ p.parrafo {
     
 }
 
-.img1 {
-    margin-top: -7%;
-}
-
-.tituloDos {
-    text-align: center;
+.navPag2 {
+    /* margin-top: 1%; */
+    margin-bottom: 3%;
 }
 
 #navbarPagUno a, .navbar{
@@ -64,13 +76,22 @@ p.parrafo {
     text-align: center;
 }
 
-.btnPag1{
+/*
+.btnPag {
     margin: 25px;
-    /* display: flex; */
-    /*necesito ver cómo hacer para que los botones no se estiren y sigan manteniendo la forma, siendo responsive cuando achico la pantalla*/
+    display: flex; 
+    necesito ver cómo hacer para que los botones no se estiren y sigan manteniendo la forma, siendo responsive cuando achico la pantalla
+}
+*/
+
+/*---IMÁGENES------IMÁGENES------IMÁGENES------IMÁGENES------IMÁGENES------IMÁGENES------IMÁGENES------IMÁGENES------*/
+.img1 {
+    margin-top: -7%;
 }
 
-.imagen2 {
+.imagen2, .imagen3 {
     display: flex;
     justify-content: center;
 }
+
+
