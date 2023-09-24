@@ -1,0 +1,17 @@
+.navPag2 {
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+
+.imagen3 {
+    display: flex;
+    justify-content: left;
+    padding: 2%;
+}
+
+.maxDraw {
+    width: 70vmin;
+}

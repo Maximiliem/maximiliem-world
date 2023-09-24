@@ -78,26 +78,12 @@ p.parrafo {
 
 }
 
-.navPag2 {
-    /* margin-top: 1%; */
-    margin-bottom: 3%;
-}
 
-
-/* con esto estoy alineando los botones del nav al centro y que sea responsive*/
 #navbarPagUno a,
 .navbar {
     text-decoration: none;
     text-align: center;
-    display: flex;
-    flex: none;
 }
-
-.navBarContainer {
-    display: grid;
-    place-items: center;
-}
-/* FIN DEL alineado de los botones del nav al centro y que sean responsive*/
 
 
 /*---IMÁGENES------IMÁGENES------IMÁGENES------IMÁGENES------IMÁGENES------IMÁGENES------IMÁGENES------IMÁGENES------*/
