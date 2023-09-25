@@ -1,0 +1,42 @@
+.navPag2 {
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+
+.imagen3 {
+    display: flex;
+    justify-content: left;
+    padding: 2%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.maxDraw {
+    width: 70vmin;
+}
+
+
+.cards-container{
+    width: 100%;
+    height: auto;
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+#card1 {
+    margin-right: 3%;
+}
+
+#card3 {
+    margin-left: 3%;
+}
+
+.info-container {
+    padding: 3%;
+}

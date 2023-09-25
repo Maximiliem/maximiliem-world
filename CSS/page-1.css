@@ -1,0 +1,13 @@
+/* con esto estoy alineando los botones del nav al centro y que sea responsive*/
+#navbarPagUno a,
+.navbar {
+    display: flex; 
+    flex: none;
+}
+
+.navBarContainer {
+    display: grid;
+    place-items: center;
+}
+
+/* FIN DEL alineado de los botones del nav al centro y que sean responsive*/

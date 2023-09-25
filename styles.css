@@ -1,4 +1,5 @@
-section {
+section,
+.tituloDos {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -23,7 +24,7 @@ h1 {
 }
 
 /*---h2------------h2---------h2--------h2------h2---------h2--------h2------h2---------h2--------h2------*/
-h2 { 
+h2 {
     font-size: 300%;
     margin-bottom: 5%;
 }
@@ -35,11 +36,14 @@ p.parrafo {
 }
 
 /*---BOTONES------------BOTONES---------BOTONES--------BOTONES------BOTONES--------BOTONES------*/
-.botoninicio, .maxDraw, .btnPag {
+.botoninicio,
+.maxDraw,
+.btnPag {
     margin-bottom: 3%;
 }
 
-.botoninicio, .btnPag {
+.botoninicio,
+.btnPag {
     background-color: black;
     color: white;
 
@@ -63,53 +67,46 @@ p.parrafo {
     margin: 25px;
 }
 
-    /* con este hover le damos animación para que el botón se ponga de color negro cuando le pasamos el puntero por encima */
-.botoninicio:hover, .btnPag:hover{
+/* con este hover le damos animación para que el botón se ponga de color negro cuando le pasamos el puntero por encima */
+.botoninicio:hover,
+.btnPag:hover {
     background-color: rgb(255, 252, 249);
     color: black;
     transition-delay: 9ms;
     /* con el comando de la línea de abajo, los botones tienen un problema de redimensionamiento al pasar el mouse por encima, con el hover, entonces si se lo quito, no hace problema */
     /* font-weight: bold; */
-    
+
 }
 
-.navPag2 {
-    /* margin-top: 1%; */
-    margin-bottom: 3%;
-}
 
-#navbarPagUno a, .navbar{
+#navbarPagUno a,
+.navbar {
     text-decoration: none;
     text-align: center;
 }
 
-/* CÓDIGO NO UTILIZADO
-.btnPag {
-    margin: 25px;
-    display: flex; 
-    necesito ver cómo hacer para que los botones no se estiren y sigan manteniendo la forma, siendo responsive cuando achico la pantalla
-}
-*/
 
 /*---IMÁGENES------IMÁGENES------IMÁGENES------IMÁGENES------IMÁGENES------IMÁGENES------IMÁGENES------IMÁGENES------*/
 .img1 {
     margin-top: -7%;
 }
 
-.imagen2, .imagen3, .underConstruction {
+.imagen2,
+.imagen3,
+.underConstruction {
     display: flex;
     justify-content: center;
 }
 
-.maxDraw, .underConstruction {
+.maxDraw,
+.underConstruction {
     margin-bottom: 60px;
 }
 
-.gatocafe{
+.gatocafe {
     margin-top: 5%;
 }
 
 
 /*---FLEXBOX------FLEXBOX------FLEXBOX------FLEXBOX------FLEXBOX------FLEXBOX------FLEXBOX------FLEXBOX------*/
 /* https://developer.mozilla.org/es/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox */
-
