@@ -10,6 +10,8 @@
     display: flex;
     justify-content: left;
     padding: 2%;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 .maxDraw {
@@ -35,3 +37,6 @@
     margin-left: 3%;
 }
 
+.info-container {
+    padding: 3%;
+}
