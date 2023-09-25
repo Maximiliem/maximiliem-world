@@ -15,3 +15,23 @@
 .maxDraw {
     width: 70vmin;
 }
+
+
+.cards-container{
+    width: 100%;
+    height: auto;
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+#card1 {
+    margin-right: 3%;
+}
+
+#card3 {
+    margin-left: 3%;
+}
+
